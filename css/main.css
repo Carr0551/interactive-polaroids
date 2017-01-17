@@ -12,6 +12,8 @@ body {
   margin: 0;
   padding: 10px;
   width: 250px;
+  position: absolute;
+  transition: all 200ms linear;
 
   background-color: #fff;
   border-radius: 4px;
@@ -27,12 +29,10 @@ body {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   bottom: 1em;
-  position: absolute;
   right: 40%;
 }
 
 .polaroid:first-child {
-  position: absolute;
   transform: rotate(-10deg);
   right: 54%;
   top: 105px;
@@ -40,7 +40,6 @@ body {
 }
 
 .polaroid:nth-last-child(2) {
-  position: absolute;
   transform: rotate(5deg);
   right: 44%;
   top: 150px;
