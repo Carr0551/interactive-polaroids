@@ -4,6 +4,10 @@ html {
   font-family: sans-serif;
 }
 
+body {
+  position: relative;
+}
+
 .polaroid {
   margin: 0;
   padding: 10px;
@@ -22,4 +26,25 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+}
+
+.polaroid:first-child {
+  position: absolute;
+  transform: rotate(-10deg);
+  right: 55%;
+  top: -40%;
+}
+
+.polaroid:nth-last-child(2) {
+  position: absolute;
+  transform: rotate(5deg);
+  right: 40%;
+  top: 50%;
+  z-index: 10;
+}
+
+.polaroid:last-child {
+  position: absolute;
+  transform: rotate(20deg);
+  right: 30%;
 }
