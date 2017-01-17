@@ -43,7 +43,7 @@ body {
   transform: rotate(5deg);
   right: 44%;
   top: 150px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .polaroid:last-child {
@@ -51,7 +51,7 @@ body {
   transform: rotate(30deg);
   right: 33%;
   top: 95px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .polaroid:hover {
